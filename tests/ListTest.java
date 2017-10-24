@@ -1,5 +1,3 @@
-package de.unitrier.st.fst17.list.tests;
-
 import de.unitrier.st.fst17.list.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
