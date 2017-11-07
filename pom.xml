@@ -3,7 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>FST17 Public</name>
-    <groupId>de.unitrier.st.fst17public</groupId>
+    <!--    Bitte die groupId anpassen, da SonarCloud sonst die Fehlermeldung "You're only authorized to execute a
+            local (preview) SonarQube analysis without pushing the results to the SonarQube server." anzeigt. Das
+            Projekt muss auf SonarCloud anscheinend eine eindeutige groupId haben. -->
+    <groupId>de.unitrier.st.fst17public</groupId> <!-- z.B. de.unitrier.st.fst17GITHUB_USERNAME -->
     <artifactId>list</artifactId>
     <version>0.1</version>
     <url>https://github.com/sbaltes/fst17-public</url>
